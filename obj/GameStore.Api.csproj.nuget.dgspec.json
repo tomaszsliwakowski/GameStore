@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CODE\\C#\\dotnet app\\GameStore\\GameStore.Api.csproj": {}
+    "c:\\CODE\\C#\\dotnet app\\GameStore\\GameStore.Api.csproj": {}
   },
   "projects": {
-    "C:\\CODE\\C#\\dotnet app\\GameStore\\GameStore.Api.csproj": {
+    "c:\\CODE\\C#\\dotnet app\\GameStore\\GameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CODE\\C#\\dotnet app\\GameStore\\GameStore.Api.csproj",
+        "projectUniqueName": "c:\\CODE\\C#\\dotnet app\\GameStore\\GameStore.Api.csproj",
         "projectName": "GameStore.Api",
-        "projectPath": "C:\\CODE\\C#\\dotnet app\\GameStore\\GameStore.Api.csproj",
+        "projectPath": "c:\\CODE\\C#\\dotnet app\\GameStore\\GameStore.Api.csproj",
         "packagesPath": "C:\\Users\\tomek\\.nuget\\packages\\",
-        "outputPath": "C:\\CODE\\C#\\dotnet app\\GameStore\\obj\\",
+        "outputPath": "c:\\CODE\\C#\\dotnet app\\GameStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tomek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0-preview.5.24306.3, )"
+            },
+            "MinimalApis.Extensions": {
+              "target": "Package",
+              "version": "[0.11.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
