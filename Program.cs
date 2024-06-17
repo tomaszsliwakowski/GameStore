@@ -10,6 +10,8 @@ var app = builder.Build();
 
 app.MapGamesEndpoints();
 
+app.MigrateDb();
+
 app.MapGet("/", () => "Server On!");
 
 app.Run();
